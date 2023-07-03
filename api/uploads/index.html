@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .grid-cols-2fr_1fr {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 0.5rem;
+        margin: 4rem;
+        overflow: hidden;
+      }
+      .a {
+        max-width: 100%;
+        max-height: 100%;
+        height: 100%;
+        aspect-ratio: 1;
+      }
+
+      .right {
+        display: grid;
+      }
+      .b {
+        max-width: 100%;
+        max-height: 100%;
+        aspect-ratio: 1;
+      }
+      .c {
+        max-width: 100%;
+        max-height: 100%;
+        aspect-ratio: 1;
+        margin-top: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Overflow Hidden Example</h1>
+    <div class="grid-cols-2fr_1fr">
+      <div>
+        <img
+          class="a"
+          src="http://66.42.40.163:4000/uploads/photo1686230089543.jpg"
+          alt=""
+        />
+      </div>
+      <div class="right">
+        <img
+          class="b"
+          src="http://66.42.40.163:4000/uploads/photo1686230089543.jpg"
+          alt=""
+        />
+        <img
+          class="c"
+          src="http://66.42.40.163:4000/uploads/photo1686230089543.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
