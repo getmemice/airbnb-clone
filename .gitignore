@@ -1,4 +1,4 @@
 # ディレクトリを指定する場合
 **/node_modules/**
-*.watchman*
+*watchman*
 
