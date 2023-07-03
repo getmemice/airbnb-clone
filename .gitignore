@@ -1,4 +1,57 @@
-# ディレクトリを指定する場合
-**/node_modules/**
-*watchman*
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+dist/
+build/
+out/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore log files
+*.log
+
+# Ignore dependency lock files
+yarn.lock
+package-lock.json
+
+# Ignore test snapshots
+__snapshots__/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore compiled files
+*.js
+*.js.map
+
+# Ignore compiled CSS
+*.css
+*.css.map
+
+# Ignore compiled Sass/SCSS
+*.scss
+*.sass
+
+# Ignore compiled TypeScript
+*.ts
+*.tsx
+*.d.ts
+
+# Ignore compiled Vue
+*.vue
+
+# Ignore cache and build files
+.cache/
+dist/
+build/
 
